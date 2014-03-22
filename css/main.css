@@ -1,0 +1,223 @@
+*{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(18, 93, 150);
+    font-family: 'Gilda Display', serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 1280px;
+    background-image:url("../img/fondoFAE_BNP.png");
+}
+body > header {
+    padding: 10px;
+}
+body > header > h1{
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+#btn{
+    background-color: rgb(206, 206, 206);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 15px;
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 5px;
+    z-index: 99;
+    outline: none;
+    background-image: url(../img/icono.png);
+}
+body > header form{
+    margin: 0 auto;
+}
+body > header form input[type='text']{
+    width: 70%;
+}
+body > header nav{
+    width: 55%;
+    padding-bottom: 300px;
+    background-color: rgb(73, 72, 72);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+}
+body > header nav h2{
+    color: white;
+    padding-left: 15px;
+}
+
+body > header nav ul{
+    margin: 0;
+    padding: 0;
+}
+body > header nav li{
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+body > header nav li a{
+    padding-left: 10px;
+}
+aside{
+    display: none;
+    width: 17%;    
+    vertical-align: top;
+    margin: 0 auto;
+    padding-left:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+aside div{
+    margin-top: 20px;
+    background-color: #fff;
+}
+aside div:first-child{
+    margin-top: 0;
+}
+aside h1{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(158, 14, 14);
+    margin: 0;
+    padding:10px;
+}
+aside p{
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+aside img{
+    width: 100%;
+}
+aside div li{
+    padding: 10px;
+}
+aside div li a{
+    color: black;
+    font-size: 14px;
+}
+body > main {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+}
+body > main ol li{
+    list-style-type: inherit;
+}
+body > main h1 {
+    color: rgb(178, 19, 19);
+    text-align: center;
+}
+body > main h2{
+    font-size: 16px;
+}
+body > main time{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 13px;
+}
+body > main > footer{
+    margin-top: 50px;
+}
+body > main >footer  li{
+    display: inline-block;
+}
+/*body > main > div p:first-child{
+    padding: 2px;
+    background-color: blue;
+}*/
+
+
+
+
+/*topcoat*/
+.topcoat-button--large,
+.topcoat-button--large--quiet {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.688rem;
+  padding: 0 0.875rem;
+}
+
+@media screen and (min-width: 800px){
+    #btn{
+        display: none;
+    }
+    body > header > form{
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    body > header > form input{
+        padding: 5px;
+        font-size: 14px;
+
+    }
+    body > header > nav{
+        position: static;
+        display: block;
+        padding-bottom: 0;
+        width: inherit;
+        border-bottom: 12px solid rgb(113, 111, 247);
+        margin-bottom: 20px;
+    }
+    body > header > nav > h2{
+        display: none;
+    }
+    body > header nav li{
+        display: inline-block;
+        border-bottom: none;
+        border-right: 1px solid white;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    body > header nav li:last-child{
+        border-right: none;
+    }
+    body > main{
+        width: 60%;
+        display: table-cell;
+        vertical-align: top;
+
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    aside{
+        display: table-cell;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
